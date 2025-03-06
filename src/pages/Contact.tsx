@@ -24,7 +24,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-all duration-300">
                         <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center">
-                            <span className="w-8 h-1 bg-coffee-600 mr-3"></span>
+                            <span className="w-8 h-1 bg-emerald-600 mr-3"></span>
                             Visit Us
                         </h2>
                         <div className="space-y-6">
@@ -35,11 +35,13 @@ const Contact = () => {
                                         alt="Location"
                                         className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                                     />
-                                    <div className="absolute inset-0 bg-coffee-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
+                                    <div className="absolute inset-0 bg-emerald-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-gray-900">Address</h3>
-                                    <p className="text-gray-600">123 Coffee Street, London, UK</p>
+                                    <p className="text-gray-600">No. 115B D.S. Senanayake Street</p>
+                                    <p className="text-gray-600">Inside Pushpadana Complex</p>
+                                    <p className="text-gray-600">Kandy, Sri Lanka</p>
                                 </div>
                             </div>
                             <div className="flex items-start group">
@@ -49,11 +51,11 @@ const Contact = () => {
                                         alt="Phone"
                                         className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                                     />
-                                    <div className="absolute inset-0 bg-coffee-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
+                                    <div className="absolute inset-0 bg-emerald-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                                    <p className="text-gray-600">+44 20 1234 5678</p>
+                                    <p className="text-gray-600">+94 81 234 5678</p>
                                 </div>
                             </div>
                             <div className="flex items-start group">
@@ -63,7 +65,7 @@ const Contact = () => {
                                         alt="Email"
                                         className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                                     />
-                                    <div className="absolute inset-0 bg-coffee-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
+                                    <div className="absolute inset-0 bg-emerald-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
@@ -77,12 +79,12 @@ const Contact = () => {
                                         alt="Hours"
                                         className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                                     />
-                                    <div className="absolute inset-0 bg-coffee-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
+                                    <div className="absolute inset-0 bg-emerald-600/10 rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-gray-900">Opening Hours</h3>
-                                    <p className="text-gray-600">Monday - Friday: 7:00 AM - 8:00 PM</p>
-                                    <p className="text-gray-600">Saturday - Sunday: 8:00 AM - 9:00 PM</p>
+                                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 8:00 PM</p>
+                                    <p className="text-gray-600">Saturday - Sunday: 9:00 AM - 9:00 PM</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +93,7 @@ const Contact = () => {
                     {/* Contact Form with Modern Design */}
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-all duration-300">
                         <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center">
-                            <span className="w-8 h-1 bg-coffee-600 mr-3"></span>
+                            <span className="w-8 h-1 bg-emerald-600 mr-3"></span>
                             Send us a Message
                         </h2>
                         <form className="space-y-6">
@@ -100,7 +102,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     id="name"
-                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-coffee-500 focus:ring-2 focus:ring-coffee-500 focus:ring-opacity-50 transition-all duration-300"
+                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 transition-all duration-300"
                                     placeholder="Your name"
                                 />
                             </div>
@@ -109,7 +111,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     id="email"
-                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-coffee-500 focus:ring-2 focus:ring-coffee-500 focus:ring-opacity-50 transition-all duration-300"
+                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 transition-all duration-300"
                                     placeholder="your@email.com"
                                 />
                             </div>
@@ -118,7 +120,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     id="subject"
-                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-coffee-500 focus:ring-2 focus:ring-coffee-500 focus:ring-opacity-50 transition-all duration-300"
+                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 transition-all duration-300"
                                     placeholder="How can we help?"
                                 />
                             </div>
@@ -127,13 +129,13 @@ const Contact = () => {
                                 <textarea
                                     id="message"
                                     rows={4}
-                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-coffee-500 focus:ring-2 focus:ring-coffee-500 focus:ring-opacity-50 transition-all duration-300"
+                                    className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 transition-all duration-300"
                                     placeholder="Your message..."
                                 ></textarea>
                             </div>
                             <button
                                 type="submit"
-                                className="w-full bg-coffee-600 text-white py-3 px-6 rounded-md hover:bg-coffee-700 focus:outline-none focus:ring-2 focus:ring-coffee-500 focus:ring-offset-2 transform hover:scale-105 transition-all duration-300"
+                                className="w-full bg-emerald-600 text-white py-3 px-6 rounded-md hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 transform hover:scale-105 transition-all duration-300"
                             >
                                 Send Message
                             </button>
@@ -144,12 +146,12 @@ const Contact = () => {
                 {/* Map Section with Modern Design */}
                 <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-all duration-300">
                     <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center">
-                        <span className="w-8 h-1 bg-coffee-600 mr-3"></span>
+                        <span className="w-8 h-1 bg-emerald-600 mr-3"></span>
                         Find Us
                     </h2>
                     <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6988537!2d-0.1276!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjYiTiAwwrAwNyczMzkuNCJX!5e0!3m2!1sen!2suk!4v1234567890"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.515986549979!2d80.63510487500005!3d7.295775592711772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3675067cda89b%3A0x188aa9753f1d5091!2sCafe%20koi!5e0!3m2!1sen!2slk!4v1741290447757!5m2!1sen!2slk"
                             width="100%"
                             height="450"
                             style={{ border: 0 }}
